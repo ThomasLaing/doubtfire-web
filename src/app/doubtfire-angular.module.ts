@@ -141,6 +141,7 @@ import {
   UserService,
   WebcalService,
 } from './api/models/doubtfire-model';
+import { PortfolioWelcomeStepComponent } from './projects/states/portfolio/directives/portfolio-welcome-step/portfolio-welcome-step.component';
 
 
 @NgModule({
@@ -187,6 +188,7 @@ import {
     TasksForInboxSearchPipe,
     StatusIconComponent,
     TaskPlagiarismCardComponent,
+    PortfolioWelcomeStepComponent,
   ],
   // Module Imports
   imports: [
